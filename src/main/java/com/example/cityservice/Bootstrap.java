@@ -23,14 +23,15 @@ public class Bootstrap {
 		City nis = new City("Nis", 1L);
 		
 		City rome = new City("Rome", 2L);
-		City venice = new City("Venice", 2L);
+		City milan = new City("Milan", 2L);
 		City naples = new City("Naples", 2L);
 		
-		City athens = new City("Athens", 3L);
-		City kavala = new City("Kavala", 3L);
+		City london = new City("London", 3L);
+		City liverpool = new City("Liverpool", 3L);
+		City manchester = new City("Manchester", 3L);
 		
-		repo.saveAll( Arrays.asList(belgrade, noviSad, nis, rome, venice, naples,
-				athens, kavala));
+		repo.saveAll( Arrays.asList(belgrade, noviSad, nis, rome, milan, naples,
+				london, liverpool, manchester));
 	}
 	
 }
